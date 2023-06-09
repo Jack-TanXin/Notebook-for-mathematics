@@ -1,0 +1,26 @@
+\section{凸性的定义与性质}
+
+\begin{definition}
+	设$f$为区间$I$上的函数，如果对于任给的$x,y\in I$，以及$\lambda\in [0,1]$都有：
+	\begin{equation}
+		f\left(\lambda x+(1-\lambda)y\right) \leq \lambda f(x)+(1-\lambda)f(y).
+	\end{equation}
+	则称$f$为$I$上的凸函数.
+\end{definition}
+
+\begin{theorem}
+	对于凸函数有以下等价的论断：
+	\begin{enumerate}
+		\item $f(x)$在$I$上为凸函数.
+		\item 若$f$在$I$上可微，$f'(x)$为$I$上的增函数.
+		\item 若$f$在$I$上二阶可微，$f''(x)\geq 0,x\in I.$
+		\item $\forall x_1,x_2\in I$有不等式：
+		\begin{equation}
+			f(x_2)\geq f(x_1)+f'(x_1)(x_2-x_1).
+		\end{equation}
+		\item $\forall x_1<x_2<x_3$有：
+		\begin{equation}
+			\dfrac{f(x_2)-f(x_1)}{x_2-x_1}\leq\dfrac{f(x_3)-f(x_1)}{x_3-x_1}\leq\dfrac{f(x_3)-f(x_2)}{x_3-x_2}.
+		\end{equation}
+	\end{enumerate}
+\end{theorem}

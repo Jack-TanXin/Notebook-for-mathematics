@@ -1,0 +1,23 @@
+\section{乘积的高阶导函数}
+
+\begin{theorem}[Leibniz公式]
+	对于两个函数乘积的高阶导数，有如下公式：
+	\begin{equation}
+		\begin{split}
+		(uv)^{(n)} & =u^{(n)}v^0+{n\choose 1}u^{(n-1)}v^{(1)}+{n\choose 2}u^{(n-2)}v^{2}+\dots+u^{(0)}v^{(n)} \\ & =\displaystyle\sum_{k=0}^{n}{n\choose k}u^{(n-k)}v^{(k)}.
+		\end{split}
+	\end{equation}
+
+\end{theorem}
+
+有一些常见的$n$阶导函数是需要记忆的，如下：
+\begin{corollary}
+	\begin{enumerate}
+		\item $(\sin{x})^{(n)}=\sin{(x+\dfrac{n\pi}{2})},(\cos{x})^{(n)}=\cos{(x+\dfrac{n\pi}{2})}$.
+		\item $\left((1+x)^{\alpha}\right)^{(n)}=\alpha(\alpha-1)\dots(\alpha-n+1)(1+x)^{\alpha-n}$.
+		\item $\left(\dfrac{1}{x}\right)^{(n)}=(-1)^n \dfrac{n!}{x^{n+1}},\left((1+x)^{-1}\right)^{(n)}=(-1)^n\dfrac{n!}{(1+x)^{n+1}},\left((1-x)^{-1}\right)^{(n)}=\dfrac{n!}{(1-x)^{n+1}}$.
+		\item $(\ln{x})^{(n)}=(-1)^{n-1}\dfrac{(n-1)!}{x^n},\left(\ln{(1+x)}\right)^{(n)}=(-1)^{n-1}\dfrac{(n-1)!}{(1+x)^n}$.
+		\item $\left(\ln{(1-x)}\right)^{(n)}=-\dfrac{(n-1)!}{(1-x)^n}$.
+	\end{enumerate}
+\end{corollary}
+

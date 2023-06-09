@@ -1,0 +1,44 @@
+\section{实数系的基本定理}
+
+下面的定理为实数系基本定理，以任意的一个为已知条件可以推出另外五个，请务必注意理解这六个定理：
+
+\begin{theorem}[确界存在定理]
+	在实数集中，有上界的数集一定有上确界，有下界的数集一定有下确界.
+\end{theorem}
+
+\begin{theorem}[单调有界定理]
+	单调有界数列一定收敛.
+\end{theorem}
+
+\begin{theorem}[Cauchy收敛准则]
+	数列$\{a_n\}$收敛的充要条件是：对于$\forall\epsilon>0$，存在$N\in N^+$，使得$\forall m,n>N$都有不等式：
+	\begin{equation}
+		|a_m-a_n|<\epsilon
+	\end{equation}
+	成立.
+\end{theorem}
+
+\begin{theorem}[闭区间套定理]
+	设有闭区间序列$\{[a_n,b_n]\}$满足条件：
+	\begin{equation}
+		a_n\leq a_{n+1}\leq b_{n+1}\leq b_n,n\in N^+,
+	\end{equation}
+	则存在$\zeta$使得$a_n\leq\zeta\leq b_n,n\in N^+$.若有：
+	\begin{equation}
+		\displaystyle\lim_{n\to\infty}|b_n-a_n|=0,
+	\end{equation}
+	则$\zeta$唯一，且数列$\{a_n\}$与$\{b_n\}$从$\zeta$的两侧单调收敛于$\zeta$.
+\end{theorem}
+
+\begin{theorem}[聚点定理]
+	有界数列必有收敛子集.
+\end{theorem}
+
+\begin{theorem}[有限覆盖定理]
+	设$[a,b]\subset\displaystyle\bigcup_{\alpha}O_{\alpha}$，其中每个$O_{\alpha}$都是开区间（此时我们称$O_{\alpha}$为$[a,b]$上的开覆盖），则存在$\{O_{\alpha}\}$的有限子集$\{O_1,O_2,\dots,O_n\}$是区间的开覆盖，即：
+	\begin{equation}
+		[a,b]\subset\displaystyle\bigcup_{i=1}^{n}O_{i}.
+	\end{equation}
+\end{theorem}
+
+这6条定理给我背得死死的，彻底理解清楚！

@@ -1,0 +1,21 @@
+\section{两个求分式数列极限的杀招}
+
+\begin{proposition}[Cauchy命题]
+	设数列$\{x_n\}$收敛于$a$，则有：
+	\begin{equation}
+		\displaystyle\lim_{n\to\infty}\dfrac{x_1+x_2+\dots+x_n}{n}=a.
+	\end{equation}
+	成立，其中$a$可以是有限数，也可以是$+\infty$或$-\infty$，但不能是$\infty$.
+\end{proposition}
+
+\begin{proposition}[Stolz定理]
+	设$\{b_n\}$是严格单调递增且趋于$+\infty$的数列，如果：
+	\[\displaystyle\lim_{n\to\infty}\dfrac{a_n-a_{n-1}}{b_n-b_{n-1}}=A,\]
+	则有：
+	\begin{equation}
+		\displaystyle\lim_{n\to\infty}\dfrac{a_n}{b_n}=A.
+	\end{equation}
+	成立，其中$A$可以是有限数，也可以是$+\infty$或$-\infty$，但不能是$\infty$.
+\end{proposition}
+
+这两个结论相当的重要，都没有在课本上出现，但却是求数列极限的杀招，尤其是针对分式型数列。

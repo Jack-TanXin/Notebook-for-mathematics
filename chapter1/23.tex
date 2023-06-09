@@ -1,0 +1,32 @@
+\section{泰勒公式}
+
+\begin{theorem}[泰勒公式]
+	设函数$f$在$(a,b)$上存在公式中出现的各阶导数，对于任意固定的$x_0\in(a,b)$有：
+	\begin{equation}
+		\begin{split}
+			f(x) = & f(x_0)+\dfrac{1}{1!}f'(x_0)(x-x_0)+\dfrac{1}{2!}f''(x_0)(x-x_0)^2 \\ & +\dots+\dfrac{1}{n!}f^{(n)}(x_0)(x-x_0)^n+R_n(x),x\in(a,b).
+			\end{split}
+	\end{equation}
+	其中$R_n$为泰勒公式的余项，通常有四种可供选择：
+	\begin{enumerate}
+		\item 佩亚诺型余项：
+		\begin{equation}
+			R_n(x)=o((x-x_0)^n,x\rightarrow x_0.
+		\end{equation}
+		\item 拉格朗日型余项：
+		\begin{equation}
+			R_n(x)=\dfrac{f^{(n+1)}(\zeta)}{(n+1)!}(x-x_0)^{n+1}，
+		\end{equation}
+		其中，$\zeta$是介于$x$与$x_0$之间的值.
+		\item 柯西型余项：
+		\begin{equation}
+			R_n(x)=\dfrac{f^{(n+1)}(\zeta)}{n!}(x-\zeta)^n(x-x_0),
+		\end{equation}
+		其中，$\zeta$是介于$x$与$x_0$之间的值.
+		\item 积分型余项：
+		\begin{equation}
+			R_n(x)=\dfrac{1}{n!}\int_{x_0}^{x}(x-t)^nf^{(n+1)}(t)\textbf{d}x
+		\end{equation}
+		这里要求$f$在$(a,b)$有连续的$n+1$阶导数.
+	\end{enumerate}
+\end{theorem}

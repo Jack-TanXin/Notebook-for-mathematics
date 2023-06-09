@@ -1,0 +1,24 @@
+\section{归结原则}
+
+\begin{theorem}[归结原则]
+	设$x_0,A\in\mathbb{R}$，存在极限$\displaystyle\lim_{x\to x_0}f(x)=A$的充要条件是：$\forall\{x_n\}(\displaystyle\lim_{n\to\infty}x_n=x_0)$且$x_n\neq x_0(\forall n\in\mathbb{N})$都有：
+	\begin{equation}
+		\displaystyle\lim_{n\to\infty}f(x_n)=A.
+	\end{equation}
+	设$A\in\mathbb{R}$，存在极限$\displaystyle\lim_{x\to \infty}f(x)=A$的充要条件是：$\forall\{x_n\}(\displaystyle\lim_{n\to\infty}x_n=\infty)$都有：
+	\begin{equation}
+		\displaystyle\lim_{n\to\infty}f(x_n)=A.
+	\end{equation}
+\end{theorem}
+
+归结原则要求这个数列每一项都不为 $𝑎$, 因为函数的极限过程仅与 $𝑎$ 去心邻域中的点有关, 而与 $𝑎$ 处的取值无关；归结原则的条件还可以强化以应对各种情景的函数极限：
+
+\begin{corollary}[归结原则的强化]
+	一般通过给定数列的单调性来实现强化
+	\begin{enumerate}
+		\item 设函数$f(x)$在点$x_0$的某空心右邻域$U^o_+(x_0)$有定义，$\displaystyle\lim_{x\to {x_0}^+}f(x)=A$的充要条件是：对任给的以$x_0$为极限的\textbf{递减数列}$\{x_n\}\subset U^o_+(x_0)$有$\displaystyle\lim_{n\to \infty}f(x_n)=A.$
+		\item 设函数$f(x)$在点$x_0$的某空心左邻域$U^o_-(x_0)$有定义，$\displaystyle\lim_{x\to {x_0}^-}f(x)=A$的充要条件是：对任给的以$x_0$为极限的\textbf{递增数列}$\{x_n\}\subset U^o_-(x_0)$有$\displaystyle\lim_{n\to \infty}f(x_n)=A.$
+		\item 设函数$f(x)$在点$+\infty$的某空心邻域$U^o(+\infty)$有定义，$\displaystyle\lim_{x\to  +\infty}f(x)=A$的充要条件是：对任给的以$x_0$为极限的\textbf{递减数列}$\{x_n\}\subset U^o(+\infty)$有$\displaystyle\lim_{n\to \infty}f(x_n)=A.$
+		\item 设函数$f(x)$在点$-\infty$的某空心邻域$U^o(-\infty)$有定义，$\displaystyle\lim_{x\to  -\infty}f(x)=A$的充要条件是：对任给的以$x_0$为极限的\textbf{递增数列}$\{x_n\}\subset U^o(-\infty)$有$\displaystyle\lim_{n\to \infty}f(x_n)=A.$
+	\end{enumerate}
+\end{corollary}

@@ -1,0 +1,28 @@
+\section{数列的上下极限}
+
+数列的上下极限有两种定义方式，二者是等价的，这里逐个介绍：
+
+\begin{definition}[极限点]
+	数列的极限点是数列的收敛子列的极限。特别地，若存在正（负）无穷大量的子列，亦将$+\infty(-\infty)$作为该数列的极限点.
+\end{definition}
+
+\begin{definition}[第一定义]
+	数列的上极限是该数列最大的极限点，记为$\displaystyle\varlimsup_{n\to\infty}x_n$；数列的下极限是该数列最小的极限点，记为$\displaystyle\varliminf_{n\to\infty}x_n$.
+\end{definition}
+
+从上下极限的第一定义可以看出：
+
+\begin{enumerate}
+	\item 如果一个数列收敛，则其上下极限都存在且都等于极限值.
+	\item 对于$\forall\{x_n\}$有$\displaystyle\varlimsup_{n\to\infty}x_n\geq\displaystyle\varliminf_{n\to\infty}x_n.$
+\end{enumerate}
+
+\begin{definition}[第二定义]
+	每个数列都有上下极限，且有：
+	\begin{equation}
+		\displaystyle\varlimsup_{n\to\infty}x_n=\displaystyle\lim_{n\to\infty}\sup_{k\geq n}\{x_k\}.
+	\end{equation}
+	\begin{equation}
+		\displaystyle\varliminf_{n\to\infty}x_n=\displaystyle\lim_{n\to\infty}\inf_{k\geq n}\{x_k\}.
+	\end{equation}
+\end{definition}

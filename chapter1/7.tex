@@ -1,0 +1,48 @@
+\section{数列递推的两个重要命题}
+
+\begin{proposition}[不动点的定义]
+	设数列$\{x_n\}$满足递推公式：
+	\begin{equation}
+		a_{n+1}=f(x_n),n\in N^+,
+	\end{equation}
+	且有：
+	\begin{equation}
+		\displaystyle\lim_{n\to\infty}x_n=x_0,
+	\end{equation}
+	\begin{equation}
+		\displaystyle\lim_{n\to\infty}f(x_n)=f(x_0),
+	\end{equation}
+	则极限$x_0$为方程$f(x)=x$的根，此时称$x_0$为方程的不动点.
+\end{proposition}
+	
+	
+\begin{proposition}[递推数列推出单调性]
+	设数列$\{x_n\}$满足递推公式：
+	\begin{equation}
+		a_{n+1}=f(x_n),n\in N^+,
+	\end{equation}
+	其中函数$f(x)$与数列$\{x_n\}$的每一项均在$I$上，则关于数列$\{x_n\}$仅有两种可能：
+	\begin{enumerate}
+		\item 若$f(x)$为单调递增函数，则数列$\{x_n\}$为单调数列.
+		\item 若$f(x)$为单调递减函数，则数列$\{x_n\}$的两个子列$\{x_{2n}\}$与$\{x_{2n-1}\}$均为单调数列，但单调性相反.
+	\end{enumerate}
+\end{proposition}
+
+这两个命题拿出了对待递推公式的数列的应有的礼仪，一般可以解决问题。
+
+\begin{proposition}[压缩映射原理]
+	设$f(x)$定义在区间$[a,b]$上且有$f([a,b])\subset[a,b]$。若有$k\in(0,1)$使$\forall x,y\in[a,b]$都有不等式：
+	\begin{equation}
+		|f(x)-f(y)|\leq k|x-y|
+	\end{equation} 
+	成立，则有：
+	\begin{enumerate}
+		\item $f(x)$在$[a,b]$上存在唯一的不动点$\zeta=f(\zeta)$
+		\item 对于满足$a_{n+1}=f(a_n)$的数列$\{a_n\}$必有：
+		\begin{equation}
+			\displaystyle\lim_{n\to\infty}a_n=\zeta.
+		\end{equation}
+	\end{enumerate}
+\end{proposition}
+
+压缩映射原理基本上是处理递推数列的最后杀招了，简而言之最重要的就是要有能力找到压缩系数$k$，

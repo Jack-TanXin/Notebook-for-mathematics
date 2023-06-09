@@ -1,0 +1,205 @@
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2023.6.4)  8 JUN 2023 20:34
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./10.tex
+(10.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-03-30>
+! Undefined control sequence.
+l.1 \section
+            {数分中的双曲函数}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \section{数
+              分中的双曲函数}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 数 in font nullfont!
+Missing character: There is no 分 in font nullfont!
+Missing character: There is no 中 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 双 in font nullfont!
+Missing character: There is no 曲 in font nullfont!
+Missing character: There is no 函 in font nullfont!
+Missing character: There is no 数 in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 1--2
+[] 
+ []
+
+
+! LaTeX Error: Environment proposition undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 \begin{proposition}
+                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ^^I函
+        数：
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 函 in font nullfont!
+Missing character: There is no 数 in font nullfont!
+Missing character: There is no ： in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 4--5
+[] 
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 5.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 5.
+! Undefined control sequence.
+l.6 ^^I^^I\cosh{x}=\dfrac
+                         {e^x+e^{-x}}{2},\sinh{x}=\dfrac{e^x-e^{-x}}{2}.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.6 ...sh{x}=\dfrac{e^x+e^{-x}}{2},\sinh{x}=\dfrac
+                                                  {e^x-e^{-x}}{2}.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (171.1386pt too wide) detected at line 7
+[] \OML/cmm/m/it/10 x \OT1/cmr/m/n/10 = []2\OML/cmm/m/it/10 ; [] x \OT1/cmr/m/n
+/10 = []2\OML/cmm/m/it/10 :
+ []
+
+Missing character: There is no 分 in font nullfont!
+Missing character: There is no 别 in font nullfont!
+Missing character: There is no 称 in font nullfont!
+Missing character: There is no 为 in font nullfont!
+Missing character: There is no 双 in font nullfont!
+Missing character: There is no 曲 in font nullfont!
+Missing character: There is no 余 in font nullfont!
+Missing character: There is no 弦 in font nullfont!
+Missing character: There is no 和 in font nullfont!
+Missing character: There is no 双 in font nullfont!
+Missing character: There is no 曲 in font nullfont!
+Missing character: There is no 正 in font nullfont!
+Missing character: There is no 弦 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 则 in font nullfont!
+Missing character: There is no 有 in font nullfont!
+Missing character: There is no ： in font nullfont!
+Missing character: There is no 是 in font nullfont!
+Missing character: There is no 偶 in font nullfont!
+Missing character: There is no 函 in font nullfont!
+Missing character: There is no 数 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 是 in font nullfont!
+Missing character: There is no 奇 in font nullfont!
+Missing character: There is no 函 in font nullfont!
+Missing character: There is no 数 in font nullfont!
+Missing character: There is no . in font nullfont!
+
+Overfull \hbox (51.54164pt too wide) in paragraph at lines 10--11
+[] \OML/cmm/m/it/10 x$$[] x$ 
+ []
+
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 反 in font nullfont!
+Missing character: There is no 函 in font nullfont!
+Missing character: There is no 数 in font nullfont!
+Missing character: There is no 为 in font nullfont!
+
+Overfull \hbox (41.03238pt too wide) in paragraph at lines 11--12
+[] \OML/cmm/m/it/10 x$$y \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (25.71533pt too wide) in paragraph at lines 11--12
+[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (39.64581pt too wide) in paragraph at lines 11--12
+[]\OT1/cmr/m/n/10 )$ 
+ []
+
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 反 in font nullfont!
+Missing character: There is no 函 in font nullfont!
+Missing character: There is no 数 in font nullfont!
+Missing character: There is no 为 in font nullfont!
+Missing character: There is no . in font nullfont!
+
+Overfull \hbox (42.14348pt too wide) in paragraph at lines 12--13
+[] \OML/cmm/m/it/10 x$$y \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (25.71533pt too wide) in paragraph at lines 12--13
+[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (39.64581pt too wide) in paragraph at lines 12--13
+[]\OT1/cmr/m/n/10 )$ 
+ []
+
+
+! LaTeX Error: \begin{document} ended by \end{proposition}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 \end{proposition}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+)
+! Emergency stop.
+<*> ./10.tex
+            
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 25 strings out of 411463
+ 428 string characters out of 5823895
+ 1843290 words of memory out of 5000000
+ 20358 multiletter control sequences out of 15000+600000
+ 512295 words of font info for 33 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 18i,3n,12p,88b,101s stack positions out of 10000i,1000n,20000p,200000b,200000s
+No pages of output.

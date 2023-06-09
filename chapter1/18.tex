@@ -1,0 +1,17 @@
+\section{震撼的反例}
+
+\begin{proposition}
+	存在函数$f(x)$，在任意的$x_0$的邻域$U(x_0)$内都是无界的，但当$x\rightarrow x_0$时$f(x)$并不趋于无穷大.
+\end{proposition}
+
+\begin{example}
+	设$f(x)=\dfrac{\cos{\frac{1}{x}}}{x}$.$\forall n\in\mathbb{N^+}$，取$x_n=\dfrac{1}{n\pi}$，则有：
+	\begin{equation}
+		|f(x_n)|=\left|\dfrac{\cos{n\pi}}{\frac{1}{n\pi}}\right|=n\pi\rightarrow\infty,n\rightarrow\infty.
+	\end{equation}
+	这说明$f(x)$在$x=0$的任一邻域无界.若取$\{y_n\}=\dfrac{1}{(n+\frac{1}{2})\pi}$，则有：
+	\begin{equation}
+		|f(y_n)|=0.
+	\end{equation}
+	这说明$\displaystyle\lim_{x\to 0}f(x)\neq\infty.$
+\end{example}

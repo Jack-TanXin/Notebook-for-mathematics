@@ -1,0 +1,14 @@
+\section{函数间的比较关系}
+
+这个问题比较拗口，所以在此归纳一下：
+
+\begin{definition}
+	设$f(x)$和$g(x)$都是在$a$的某个去心邻域$U(a)$上有定义的无穷小量，且有$g(x)\neq 0$，那么就有：
+	\begin{enumerate}
+		\item $f(x)=o(g(x))(x\rightarrow a)$的定义是：$\displaystyle\lim_{x\to a}\left(f(x)/g(x)\right)=0$.此时也称$f(x)$是$g(x)$的高阶无穷小量.那么$f(x)=o(1)(x\rightarrow a)$就可以自然地表示为$\displaystyle\lim_{x\to a}f(x)=0.$
+		\item $f(x)=O(g(x))(x\rightarrow a)$的定义是：存在$M>0$使得$|\dfrac{f(x)}{g(x)}|\leq M$在$a$的某去心邻域成立，也即$|f(x)|\leq M|g(x)|$.那么$f(x)=O(1)(x\rightarrow a)$就可以表示为$f(x)$在$a$的去心邻域上有界.\textbf{但是这并不是同阶无穷小量！！！}
+		\item 如果有$\displaystyle\lim_{x\to a}\dfrac{f(x)}{g(x)}=A\neq 0$，称$f(x)$与$g(x)$为同阶无穷小量.
+		\item $f(x)\sim g(x)(x\rightarrow a)$的定义是：$\displaystyle\lim_{x\to  a}\dfrac{f(x)}{g(x)}=1$.此时称$f(x)$与$g(x)$为等价无穷小量.
+	\end{enumerate}
+\end{definition}
+	

@@ -1,0 +1,34 @@
+\section{函数的一致收敛}
+
+函数的连续性是函数的局部性质，而一致连续则是函数的全局性质——这是二者最大的区别！！！一定要好好地理解。
+
+\begin{definition}
+	设$f(x)$是定义在区间$I$上的函数，若任给的$\epsilon>0$，存在$\delta>0$使得$\forall x',x''\in I(|x'-x''<\delta|)$有不等式：
+	\begin{equation}
+		|f(x')-f(x'')|<\epsilon
+	\end{equation}
+	成立，则称$f(x)$在区间$I$上一致连续.
+\end{definition}
+
+\begin{theorem}[Cantor定理]
+	设$f(x)$为定义在闭区间$[a,b]$上的连续函数，则$f(x)$在闭区间$[a,b]$上一致连续.
+\end{theorem}
+
+\begin{corollary}
+	设$f(x)$在闭区间$[a,b]$上一致连续，则$f(x)$在闭区间$[c,d]\subset [a,b]$上一致连续.
+\end{corollary}
+
+\begin{proposition}
+	有界开区间$(a,b)$上的连续函数$f(x)$在$(a,b)$上一致连续的充要条件是：$f(x)$在$x=a$处的右极限和$x=b$处的左极限均存在且有限.
+\end{proposition}
+
+\begin{corollary}
+	开区间上的一致连续函数一定在开区间上有界.
+\end{corollary}
+
+\begin{proposition}
+	$f(x)$在$\mathbb{R}$上一致连续，则存在正实数$a,b$使得：
+	\begin{equation}
+		|f(x)|\leq a|x|+b.
+	\end{equation}
+\end{proposition}

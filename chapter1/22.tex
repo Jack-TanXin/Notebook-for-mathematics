@@ -1,0 +1,17 @@
+\section{函数极限的杀招：洛必达法则}
+
+\begin{theorem}[洛必达法则]
+	设函数$f$和$g$满足：
+	\begin{enumerate}
+		\item $\displaystyle\lim_{x\to x_0}f(x)=\displaystyle\lim_{x\to x_0}g(x)=0.$或$\displaystyle\lim_{x\to x_0}g(x)=\infty$.
+		\item 在点$x=x_0$的某空心邻域$U^o(x_0)$上可导，且有$g'(x)\neq 0$.
+		\item $\displaystyle\lim_{x\to x_0}\dfrac{f'(x)}{g'(x)}=A$.
+	\end{enumerate}
+	则有：
+	\begin{equation}
+		\displaystyle\lim_{x\to x_0}\dfrac{f(x)}{g(x)}=A.
+	\end{equation}
+	此处$A$可以是实数，也可以是$+\infty,-\infty,\infty.$
+\end{theorem}
+
+一定要注意：洛必达法则要求两个函数在点的空心邻域可导，而不是单点可导.

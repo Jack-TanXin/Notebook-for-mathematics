@@ -1,0 +1,356 @@
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2023.6.4)  8 JUN 2023 12:56
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./7.tex
+(7.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-03-30>
+! Undefined control sequence.
+l.1 \section
+            {数列递推的两个重要命题}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \section{数
+              列递推的两个重要命题}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 数 in font nullfont!
+Missing character: There is no 列 in font nullfont!
+Missing character: There is no 递 in font nullfont!
+Missing character: There is no 推 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 两 in font nullfont!
+Missing character: There is no 个 in font nullfont!
+Missing character: There is no 重 in font nullfont!
+Missing character: There is no 要 in font nullfont!
+Missing character: There is no 命 in font nullfont!
+Missing character: There is no 题 in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 1--2
+[] 
+ []
+
+
+! LaTeX Error: Environment proposition undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 \begin{proposition}
+                       [不动点的定义]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 \begin{proposition}[
+                        不动点的定义]
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no 不 in font nullfont!
+Missing character: There is no 动 in font nullfont!
+Missing character: There is no 点 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 定 in font nullfont!
+Missing character: There is no 义 in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no 设 in font nullfont!
+Missing character: There is no 数 in font nullfont!
+Missing character: There is no 列 in font nullfont!
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 4.
+Missing character: There is no 满 in font nullfont!
+Missing character: There is no 足 in font nullfont!
+Missing character: There is no 递 in font nullfont!
+Missing character: There is no 推 in font nullfont!
+Missing character: There is no 公 in font nullfont!
+Missing character: There is no 式 in font nullfont!
+Missing character: There is no ： in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 3--5
+[]
+ []
+
+
+Overfull \hbox (21.15863pt too wide) in paragraph at lines 3--5
+\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 x[]\OMS/cmsy/m/n/10 g$ 
+ []
+
+
+Overfull \hbox (100.30669pt too wide) detected at line 7
+\OML/cmm/m/it/10 a[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/
+cmm/m/it/10 x[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; n \OMS/cmsy/m/n/10 2 \OML/cm
+m/m/it/10 N[];
+ []
+
+Missing character: There is no 且 in font nullfont!
+Missing character: There is no 有 in font nullfont!
+Missing character: There is no ： in font nullfont!
+
+Overfull \hbox (60.02545pt too wide) detected at line 11
+[] \OML/cmm/m/it/10 x[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 x[];
+ []
+
+
+Overfull \hbox (87.52557pt too wide) detected at line 14
+[] \OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x[]\OT1/cmr/m/n/10 ) = \
+OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x[]\OT1/cmr/m/n/10 )\OML/cmm
+/m/it/10 ;
+ []
+
+Missing character: There is no 则 in font nullfont!
+Missing character: There is no 极 in font nullfont!
+Missing character: There is no 限 in font nullfont!
+Missing character: There is no 为 in font nullfont!
+Missing character: There is no 方 in font nullfont!
+Missing character: There is no 程 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 根 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 此 in font nullfont!
+Missing character: There is no 时 in font nullfont!
+Missing character: There is no 称 in font nullfont!
+Missing character: There is no 为 in font nullfont!
+Missing character: There is no 方 in font nullfont!
+Missing character: There is no 程 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 不 in font nullfont!
+Missing character: There is no 动 in font nullfont!
+Missing character: There is no 点 in font nullfont!
+Missing character: There is no . in font nullfont!
+
+! LaTeX Error: \begin{document} ended by \end{proposition}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 \end{proposition}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (40.22224pt too wide) in paragraph at lines 14--17
+$\OML/cmm/m/it/10 x[]$$f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) =
+ []
+
+
+Overfull \hbox (15.91667pt too wide) in paragraph at lines 14--17
+\OML/cmm/m/it/10 x$$x[]$
+ []
+
+
+! LaTeX Error: Environment proposition undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 \begin{proposition}
+                        [递推数列推出单调性]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 \begin{proposition}[
+                         递推数列推出单调性]
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no 递 in font nullfont!
+Missing character: There is no 推 in font nullfont!
+Missing character: There is no 数 in font nullfont!
+Missing character: There is no 列 in font nullfont!
+Missing character: There is no 推 in font nullfont!
+Missing character: There is no 出 in font nullfont!
+Missing character: There is no 单 in font nullfont!
+Missing character: There is no 调 in font nullfont!
+Missing character: There is no 性 in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no 设 in font nullfont!
+Missing character: There is no 数 in font nullfont!
+Missing character: There is no 列 in font nullfont!
+Missing character: There is no 满 in font nullfont!
+Missing character: There is no 足 in font nullfont!
+Missing character: There is no 递 in font nullfont!
+Missing character: There is no 推 in font nullfont!
+Missing character: There is no 公 in font nullfont!
+Missing character: There is no 式 in font nullfont!
+Missing character: There is no ： in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 19--21
+[]
+ []
+
+
+Overfull \hbox (21.15863pt too wide) in paragraph at lines 19--21
+\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 x[]\OMS/cmsy/m/n/10 g$ 
+ []
+
+
+Overfull \hbox (100.30669pt too wide) detected at line 23
+\OML/cmm/m/it/10 a[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/
+cmm/m/it/10 x[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; n \OMS/cmsy/m/n/10 2 \OML/cm
+m/m/it/10 N[];
+ []
+
+Missing character: There is no 其 in font nullfont!
+Missing character: There is no 中 in font nullfont!
+Missing character: There is no 函 in font nullfont!
+Missing character: There is no 数 in font nullfont!
+Missing character: There is no 与 in font nullfont!
+Missing character: There is no 数 in font nullfont!
+Missing character: There is no 列 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 每 in font nullfont!
+Missing character: There is no 一 in font nullfont!
+Missing character: There is no 项 in font nullfont!
+Missing character: There is no 均 in font nullfont!
+Missing character: There is no 在 in font nullfont!
+Missing character: There is no 上 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 则 in font nullfont!
+Missing character: There is no 关 in font nullfont!
+Missing character: There is no 于 in font nullfont!
+Missing character: There is no 数 in font nullfont!
+Missing character: There is no 列 in font nullfont!
+Missing character: There is no 仅 in font nullfont!
+Missing character: There is no 有 in font nullfont!
+Missing character: There is no 两 in font nullfont!
+Missing character: There is no 种 in font nullfont!
+Missing character: There is no 可 in font nullfont!
+Missing character: There is no 能 in font nullfont!
+Missing character: There is no ： in font nullfont!
+
+Overfull \hbox (66.96313pt too wide) in paragraph at lines 23--25
+$\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )$$\OMS/c
+msy/m/n/10 f\OML/cmm/m/it/10 x[]\OMS/cmsy/m/n/10 g$$\OML/cmm/m/it/10 I$$\OMS/cm
+sy/m/n/10 f\OML/cmm/m/it/10 x[]\OMS/cmsy/m/n/10 g$ 
+ []
+
+Missing character: There is no 若 in font nullfont!
+Missing character: There is no 为 in font nullfont!
+Missing character: There is no 单 in font nullfont!
+Missing character: There is no 调 in font nullfont!
+Missing character: There is no 递 in font nullfont!
+Missing character: There is no 增 in font nullfont!
+Missing character: There is no 函 in font nullfont!
+Missing character: There is no 数 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 则 in font nullfont!
+Missing character: There is no 数 in font nullfont!
+Missing character: There is no 列 in font nullfont!
+Missing character: There is no 为 in font nullfont!
+Missing character: There is no 单 in font nullfont!
+Missing character: There is no 调 in font nullfont!
+Missing character: There is no 数 in font nullfont!
+Missing character: There is no 列 in font nullfont!
+Missing character: There is no . in font nullfont!
+
+Overfull \hbox (40.62396pt too wide) in paragraph at lines 26--27
+\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )$$\OMS/cm
+sy/m/n/10 f\OML/cmm/m/it/10 x[]\OMS/cmsy/m/n/10 g$ 
+ []
+
+Missing character: There is no 若 in font nullfont!
+Missing character: There is no 为 in font nullfont!
+Missing character: There is no 单 in font nullfont!
+Missing character: There is no 调 in font nullfont!
+Missing character: There is no 递 in font nullfont!
+Missing character: There is no 减 in font nullfont!
+Missing character: There is no 函 in font nullfont!
+Missing character: There is no 数 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 则 in font nullfont!
+Missing character: There is no 数 in font nullfont!
+Missing character: There is no 列 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 两 in font nullfont!
+Missing character: There is no 个 in font nullfont!
+Missing character: There is no 子 in font nullfont!
+Missing character: There is no 列 in font nullfont!
+Missing character: There is no 与 in font nullfont!
+Missing character: There is no 均 in font nullfont!
+Missing character: There is no 为 in font nullfont!
+Missing character: There is no 单 in font nullfont!
+Missing character: There is no 调 in font nullfont!
+Missing character: There is no 数 in font nullfont!
+Missing character: There is no 列 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 但 in font nullfont!
+Missing character: There is no 单 in font nullfont!
+Missing character: There is no 调 in font nullfont!
+Missing character: There is no 性 in font nullfont!
+Missing character: There is no 相 in font nullfont!
+Missing character: There is no 反 in font nullfont!
+Missing character: There is no . in font nullfont!
+
+Overfull \hbox (101.14963pt too wide) in paragraph at lines 27--28
+\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )$$\OMS/cm
+sy/m/n/10 f\OML/cmm/m/it/10 x[]\OMS/cmsy/m/n/10 g$$f\OML/cmm/m/it/10 x[]\OMS/cm
+sy/m/n/10 g$$f\OML/cmm/m/it/10 x[]\OMS/cmsy/m/n/10 g$ 
+ []
+
+
+! LaTeX Error: \begin{document} ended by \end{proposition}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 \end{proposition}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+)
+! Emergency stop.
+<*> ./7.tex
+           
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 25 strings out of 411463
+ 423 string characters out of 5823895
+ 1843290 words of memory out of 5000000
+ 20358 multiletter control sequences out of 15000+600000
+ 512295 words of font info for 33 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 18i,3n,12p,121b,101s stack positions out of 10000i,1000n,20000p,200000b,200000s
+No pages of output.

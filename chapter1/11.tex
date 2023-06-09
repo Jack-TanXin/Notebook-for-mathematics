@@ -1,0 +1,31 @@
+\section{求极限时变量替换的陷阱}
+
+\begin{proposition}[变量替换的充分条件]
+	设$\displaystyle\lim_{x\to a}g(x)=A$，$\displaystyle\lim_{y\to A}f(x)=B$成立，且在点$a$的某个领域上有$g(x)=y$，如果满足下面三个条件之一：
+	\begin{enumerate}
+		\item 存在点$a$的一个空心领域$O_{\delta}\{a\}-\{a\}$，在其中$g(x)\neq A$.
+		\item $\displaystyle\lim_{y\to A}f(y)=f(A)$.
+		\item $A=\infty$且$\displaystyle\lim_{y\to A}f(y)存在$
+	\end{enumerate}	
+	则有：
+	\begin{equation}
+		\displaystyle\lim_{x\to a}f(g(x))=\displaystyle\lim_{y\to A}f(y)=B.
+	\end{equation}
+\end{proposition}
+
+注意：在使用变量替换求函数极限的时候要注意条件. 具体来说就是在求极限$\displaystyle\lim_{x\to a}F(a)$时，如果有$F(x)=f(g(x))$，又有$\displaystyle\lim_{x\to a}g(x)=A,\displaystyle\lim_{y\to A}f(y)=B$，能否推出$\displaystyle\lim_{x\to A}F(x)=B?$
+
+\textbf{不能！}可以给出反例：设函数$f(x)$和$g(x)$分别为：
+\begin{equation}
+	f(y)=\left\{
+	\begin{aligned}
+		1 \quad y=0\\
+		0 \quad y\neq 0\\
+	\end{aligned}
+	\right
+	.
+\end{equation}
+\begin{equation}
+	g(x)\equiv 0.
+\end{equation}
+则有$f(g(x))\equiv 1$，但$\displaystyle\lim_{y\to 0}f(y)=0,\displaystyle\lim_{x\to 0}f(g(x))=1.$

@@ -1,0 +1,63 @@
+\section{几个很有用的不等式}
+
+\begin{proposition}[Bernoulli不等式]
+	设$h>-1,n\in N_+$，则有不等式：
+	\begin{equation}
+		(1+h)^n\geq 1+nh,
+	\end{equation}		
+	成立，其中$n>1$时等号成立的充要条件是$h=0$.
+\end{proposition}
+
+\begin{corollary}[对Bernoulli不等式的补充]
+	设$h>-1,n\in N_+$，则有不等式：
+	\begin{equation}
+		(1+h)^n\geq 1+\dfrac{n(n-1)h^2}{2},
+	\end{equation}
+	成立，其中$n>1$时等号成立的充要条件是$h=0$.
+\end{corollary}
+
+这个命题以及推论在求数列极限中是有非常大的作用的，均可由二项式公式轻松推得，杀伤力极强！
+
+\begin{proposition}[均值不等式]
+	设$a_1,a_2,\dots,a_n$为$n$个非负实数，则有不等式：
+	\begin{equation}
+		\dfrac{1}{\frac{1}{a_1}+\dots+\frac{1}{a_n}}\leq\sqrt[n]{a_1\dots a_n}\leq\dfrac{a_1+\dots+a_n}{n}\leq\sqrt{\dfrac{{a_1}^2+\dots+{a_n}^2}{n}},
+	\end{equation}
+	成立，其中等号成立的充要条件时$a_1=a_2=\dots=a_n.$
+\end{proposition}
+
+均值不等式链的作用是不言而喻的，在高中就已经接触到的最基本的不等式，在数分高代中依然屡见不鲜！
+
+\begin{proposition}[Cauchy-Schwarz不等式]
+	对实数$a_1,a_2,\dots,a_n$和$b_1,b_2,\dots,b_n$有不等式：
+	\begin{equation}
+		\left|\displaystyle\sum_{i=1}^{n}a_ib_i\right|\leq\sqrt{\displaystyle\sum_{i=1}^{n}{a_i}^2}\sqrt{\displaystyle\sum_{i=1}^{n}{b_i}^2}
+	\end{equation}
+\end{proposition}
+
+\begin{corollary}[柯西不等式积分形式]
+	假设函数 $f(x)$ 和 $g(x)$ 在闭合区间 $[a, b]$ 上连续，则有不等式：
+	\begin{equation}
+		\left(\int_a^b f(x)g(x) \, dx\right)^2 \leq \int_a^b f(x)^2 \, dx \cdot \int_a^b g(x)^2 \, dx,
+	\end{equation}
+	成立。其中$f(x)$ 和 $g(x)$ 是定义在 $[a, b]$ 上的可积函数。
+\end{corollary}
+
+两种形式的柯西不等式，分别对应求和和积分两种情况——这也让我们有了初步的对求和和积分之间建立桥梁的意识，二者在做题时在不同情况下有非常好的效果！
+
+\begin{proposition}
+	如果$0<x<\frac{\pi}{2}$，则有不等式：
+	\begin{equation}
+		\sin{x}<x<\tan{x}.
+	\end{equation}
+		$\forall x\geq 0$有不等式：
+	\begin{equation}
+		\sin{x}\leq x.
+	\end{equation}
+	$\forall x\in R$有不等式：
+	\begin{equation}
+		|\sin{x}|\leq |x|.
+	\end{equation}
+\end{proposition}
+
+
