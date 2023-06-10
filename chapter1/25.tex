@@ -1,0 +1,16 @@
+\section{两类詹森不等式}
+
+詹森不等式是凸函数的重要性质之一类似于柯西不等式的，詹森不等式也有离散和连续两个版本，且表现为求和和积分形式。
+\begin{theorem}[离散的詹森不等式]
+	设函数$f(x)$为$[a,b]$上的凸函数，则对$\forall x_i\in[a,b],\lambda_i>0(i=1,2,\dots,n)$，有：
+	\begin{equation}
+		f\left(\dfrac{1}{\displaystyle\sum_{i=1}^{n}\lambda_i}\displaystyle\sum_{i=1}^{n}\lambda_ix_i\right)\leq\dfrac{\displaystyle\sum_{i=1}^{n}\lambda_if(x_i)}{\displaystyle\sum_{i=1}^{n}\lambda_i}.
+	\end{equation}
+\end{theorem}
+	
+\begin{theorem}[连续的詹森不等式]
+	设函数$f(x)$和$g(x)$在$[a,b]$上连续，其中$g(x)>0,m\leq f(x)\leq M$，如果$\varphi(x)$是$[m,M]$上的连续的凸函数，则有：
+	\begin{equation}
+		f\left(\dfrac{\int_{a}^{b}f(x)g(x)\textbf{d}x}{\int_{a}^{n}g(x)\textbf{d}x}\right)\leq\dfrac{\int_{a}^{b}\varphi(f(x))g(x)\textbf{d}x}{\int_{a}^{b}g(x)\textbf{d}x}.
+	\end{equation}
+\end{theorem}

@@ -24,3 +24,32 @@
 		\end{equation}
 	\end{enumerate}
 \end{theorem}
+
+\begin{definition}[Lipschitz连续]
+	函数$f$在$I$上Lipschitz连续的充要条件是：存在$L>0$，使得对于所有$x_1$和$x_2$，满足：
+	\begin{equation}
+		|f(x_1) - f(x_2)| \leq L|x_1 - x_2|.
+	\end{equation}
+\end{definition}
+
+Lipschitz连续性是连续性的一种更强的要求。连续性要求函数在某个点附近具有足够的光滑性，而Lipschitz连续性则进一步要求函数的变化率受到一定限制，不允许出现过于剧烈的变化。\textbf{并非所有连续函数都是Lipschitz连续的，但Lipschitz连续的函数一定是连续的。}
+
+\begin{proposition}
+	设函数$f$为区间$I$上的凸函数，则有：
+	\begin{enumerate}
+		\item $f$在$I$的内部Lipschitz连续.特别地，开区间上的凸函数必为连续函数.
+		\item $f$在$I$的内部有单调递增的$f'_-(x)$和$f'_+(x)$，且有不等式：
+		\begin{equation}
+			f'_-(x)\leq f'_+(x).
+		\end{equation}
+	\end{enumerate}
+\end{proposition}
+
+
+\begin{proposition}
+	若$f$为$[a,b]$上的连续的凸函数，则有：
+	\begin{equation}
+		f(\dfrac{a+b}{2})\leq\dfrac{1}{b-a}\int_{a}^{b}f(x)\textbf{d}x\leq\dfrac{f(a)+f(b)}{2}.
+	\end{equation}
+	
+\end{proposition}
