@@ -1,0 +1,45 @@
+\section{可微性、连续性与区间的渊源}
+
+\begin{definition}[单点连续]
+	设$f$为定义在$U(x_0)$上的函数，若对$x_0\in U(x_0)$有：
+	\begin{equation}
+		\displaystyle\lim_{x\to x_0}f(x)=f(x_0).
+	\end{equation}
+	则称$f$在$x_0$处连续.
+\end{definition}
+
+\begin{definition}[单点可微]
+	设$f$为定义在$U(x_0)$上的函数，若对$x_0\in U(x_0)$有：
+	\begin{equation}
+		\displaystyle\lim_{x\to x_o}\dfrac{f(x)-f(x_0)}{x-x_0}
+	\end{equation}
+	存在，则称$f$在$x_0$处可导.
+\end{definition}
+
+由此可见：想要函数$f$在$x_0$连续或可导，那么$f$必须在$U(x_0)$有定义.
+
+\begin{theorem}
+	若$f$在$x_0$上可导，则$f$在$x_0$上连续.
+\end{theorem}
+
+\begin{definition}[单点二阶可导]
+	设$f$的导函数$f'(x)$在点$x_0$可导，即：
+	\begin{equation}
+		\displaystyle\lim_{x\to x_o}\dfrac{f'(x)-f'(x_0)}{x-x_0}
+	\end{equation}
+	存在，则将其记为$f''(x_0)$，并称$f$在$x_0$处二阶可导.
+\end{definition}
+
+要搞清楚一点：$f'$要想在$x_0$处可导，则$f'$必须在在$U(x_0)$有定义.
+
+\begin{definition}[补充：连续可微]
+	若函数$f$在$I$上可导，且导函数在$I$上连续，则称$f$在$I$上连续可微.
+\end{definition}
+
+\begin{proposition}
+	\begin{enumerate}
+		\item 若函数$f$在区间$I$上可导，则$f$在区间$I$上没有间断点.函数在区间上可导要求函数在区间上不仅连续，而且光滑.且$f'$在I上没有第一类间断点，可能有第二类间断点.
+		\item 若函数$f$在$x=x_0$处$n$阶可导，则$f$在$U(x_0)$有$n-1$阶导函数，且$f^{(n-1)}$在$U(x_0)$连续.
+		\item 若函数$f$在$U(x_0)$上$n$阶可导，则$f$在$U(x_0)$上$k(k=1,2,\dots,n-1)$阶可导，且$f^{(n)}$在$U(x_0)$连续.
+	\end{enumerate}
+\end{proposition}
