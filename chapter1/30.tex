@@ -1,0 +1,36 @@
+\section{反函数、复合函数的连续与可导}
+
+\begin{theorem}[反函数的连续性]
+	若函数$f$在$[a,b]$上严格单调并连续，则反函数$f^{-1}$在其定义域$[f(a),f(b)]$或$[f(b),f(a)]$上连续.
+\end{theorem}
+	
+\begin{theorem}[反函数的可导性]
+	若函数$y=f(x)$为$x=\varphi(y)$的反函数，若$\varphi(x)$在点$y_0$的某邻域上连续，严格单调且$\varphi'(y_0)\neq 0$，则$f$在点$x_0(x_0=\varphi(y_0))$可导，且有：
+	\begin{equation}
+		f'(x_0) = \dfrac{1}{\varphi'(y_0)}.
+	\end{equation}
+\end{theorem}
+
+\begin{theorem}[复合函数的连续性]
+	若函数$f$在点$x_0$连续，$g$在点$\mu_0$连续，且有$\mu_0=f(x_0)$，则复合函数$g\circ f$在点$x_0$连续.即：
+	\begin{equation}
+		\displaystyle\lim_{x\to x_0}g(f(x))=g(\displaystyle\lim_{x\to x_0}f(x)) = g(f(x_0)).
+	\end{equation}
+	特别地，若复合函数$g\circ f$的内函数$f$有$\displaystyle\lim_{x\to x_0}f(x)=a$，而$a\neq f(x_0)$，即$x_0$为$f$的可去间断点.同时外函数$g$在$u=a$处连续，则仍有： 
+	\begin{equation}
+		\displaystyle\lim_{x\to x_0}g(f(x))=g(\displaystyle\lim_{x\to x_0}f(x))).
+	\end{equation}
+\end{theorem}
+
+
+\begin{theorem}[复合函数的可导性]
+	设$u=varchi(x)$在点$x_0$可导，$y=f(u)$在点$u_0=\varphi(x_0)$可导，则复合函数$f\circ \varphi$在点$x_0$可导，且有：
+	\begin{equation}
+		(f\circ\varphi)'(x_0) = f'(\mu_0)\varphi'(x_0) = f'(\varphi(x_0))\varphi'(x_0).
+	\end{equation}
+	该式亦被称为链式法则.函数$y = f(u),u = \varphi(x)$的复合函数在$x$的求导函数一般写作：
+	\begin{equation}
+		\dfrac{\textbf{d}y}{\textbf{d}x} = \dfrac{\textbf{d}y}{\textbf{d}u}\cdot\dfrac{\textbf{d}u}{\textbf{d}x}.
+	\end{equation}
+\end{theorem}
+

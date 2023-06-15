@@ -28,8 +28,10 @@
 \contentsline {section}{\numberline {1.27}反函数的秘密}{21}{section.1.27}%
 \contentsline {section}{\numberline {1.28}可微性、连续性与区间的渊源}{22}{section.1.28}%
 \contentsline {section}{\numberline {1.29}用作结论的重要不定积分}{23}{section.1.29}%
-\contentsline {chapter}{\numberline {第二章}高代重要命题与结论}{24}{chapter.2}%
-\contentsline {chapter}{\numberline {第三章}数学分析解题总结}{25}{chapter.3}%
-\contentsline {chapter}{\numberline {第四章}高等代数解题总结}{26}{chapter.4}%
-\contentsline {chapter}{\numberline {第五章}数学分析真题集}{27}{chapter.5}%
-\contentsline {chapter}{\numberline {第六章}高等代数真题集}{28}{chapter.6}%
+\contentsline {section}{\numberline {1.30}反函数、复合函数的连续与可导}{24}{section.1.30}%
+\contentsline {section}{\numberline {1.31}可积条件总结}{25}{section.1.31}%
+\contentsline {chapter}{\numberline {第二章}高代重要命题与结论}{26}{chapter.2}%
+\contentsline {chapter}{\numberline {第三章}数学分析解题总结}{27}{chapter.3}%
+\contentsline {chapter}{\numberline {第四章}高等代数解题总结}{28}{chapter.4}%
+\contentsline {chapter}{\numberline {第五章}数学分析真题集}{29}{chapter.5}%
+\contentsline {chapter}{\numberline {第六章}高等代数真题集}{30}{chapter.6}%
