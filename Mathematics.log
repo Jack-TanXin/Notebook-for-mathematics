@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2023.6.4)  17 JUN 2023 08:07
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2023.6.4)  19 JUN 2023 08:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2144,29 +2144,30 @@ LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
 ) [18] (chapter1/24.tex) [19] (chapter1/25.tex) (chapter1/26.tex) [20]
 (chapter1/27.tex) [21] (chapter1/28.tex) [22] (chapter1/29.tex) [23]
 (chapter1/30.tex) [24] (chapter1/31.tex) (chapter1/32.tex) [25]
-(chapter1/33.tex) (chapter1/34.tex) [26] (Mathematics.aux)
+(chapter1/33.tex) (chapter1/34.tex) [26] (chapter1/35.tex) [27]
+Chapter 2.
+(chapter3/1_三大积分法与三类特殊体系.tex
+LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/b/n' will be
+(Font)              scaled to size 14.4pt on input line 3.
+) [28
+
+] (Mathematics.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-Package rerunfilecheck Warning: File `Mathematics.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Mathematics.out':
-(rerunfilecheck)             Before: BE51152E0AF0C39EC5CC1039A5EE7372;5854
-(rerunfilecheck)             After:  2242EE3CB929563A2A7A15A1CA80C706;5167.
+Package rerunfilecheck Info: File `Mathematics.out' has not changed.
+(rerunfilecheck)             Checksum: 9381860D040AB9402B7091571D5CE1EB;6006.
 Package logreq Info: Writing requests to 'Mathematics.run.xml'.
 \openout1 = `Mathematics.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48644 strings out of 411463
- 1007643 string characters out of 5823895
- 1970170 words of memory out of 5000000
- 68016 multiletter control sequences out of 15000+600000
- 529451 words of font info for 119 fonts, out of 8000000 for 9000
+ 48679 strings out of 411463
+ 1008357 string characters out of 5823895
+ 1970288 words of memory out of 5000000
+ 68042 multiletter control sequences out of 15000+600000
+ 529467 words of font info for 121 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  103i,17n,136p,686b,1325s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Mathematics.pdf (29 pages).
+Output written on Mathematics.pdf (31 pages).

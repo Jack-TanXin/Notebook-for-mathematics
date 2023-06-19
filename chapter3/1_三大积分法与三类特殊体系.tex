@@ -1,0 +1,27 @@
+\section{三大积分法与三类特殊体系}
+
+\subsection{三大积分法}
+
+\begin{theorem}[第一换元积分法，凑微分法]
+	设函数$f$在区间$I$上有定义，$\varphi(t)$在区间$J$上可导，且$\varphi(J)\in I$.如果不定积分$\int f(x)\textbf{d}x = F(x)+C$在$I$上存在，则不定积分$\int f(\varphi(t))\varphi'(t)\textbf{d}t$在$J$上也存在，且有：
+	\begin{equation}
+		\int f(\varphi(t))\varphi'(t)\textbf{d}t = F(\varphi(t))+C.
+	\end{equation}
+\end{theorem}
+
+\begin{theorem}[第二换元积分法，代入换元法]
+	设函数$f(x)$在区间$I$上有定义，$\varphi(t)$在区间$J$上可导，$\varphi(J)=I$，且$x=\varphi(t)$在区间$J$上存在反函数$t = \varphi^{-1}(x),x\in I$.如果不定积分$\int f(x)\textbf{d}x$在区间$I$上存在，则当不定积分$\int f(\varphi(t))\varphi'(t)\textbf{d}t=G(t)+C$在$J$上存在时，在$I$上有：
+	\begin{equation}
+		\int f(x)\textbf{d}x = G(\varphi^{-1}(x))+C.
+	\end{equation}
+\end{theorem}
+
+\begin{theorem}[分部积分法]
+	若$u(x)$和$v(x)$可导，不定积分$\int u'(x)v'(x)\textbf{d}x$存在，则$\int u(x)v'(x)\textbf{d}x$也存在，并有：
+	\begin{equation}
+		\int u(x)v'(x)\textbf{d}x = u(x)v(x)-\int u'(x)v(x)\textbf{d}x.
+	\end{equation}
+\end{theorem}
+
+\subsection{有理函数和可化为有理函数的不定积分}
+
