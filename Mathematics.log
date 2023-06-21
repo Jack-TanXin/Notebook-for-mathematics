@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2023.6.4)  21 JUN 2023 09:17
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2023.6.4)  22 JUN 2023 00:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2145,31 +2145,31 @@ LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
 (chapter1/27.tex) [21] (chapter1/28.tex) [22] (chapter1/29.tex) [23]
 (chapter1/30.tex) [24] (chapter1/31.tex) (chapter1/32.tex) [25]
 (chapter1/33.tex) (chapter1/34.tex) [26] (chapter1/35.tex) (chapter1/36.tex)
-[27]
+[27] (chapter1/37.tex) [28]
 Chapter 2.
-[28
+[29
 
 ] (chapter3/1_三大积分法与三类特殊体系.tex
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/b/n' will be
 (Font)              scaled to size 14.4pt on input line 3.
-) [29] (chapter3/2_求数列极限的方法.tex) [30]
-(chapter3/3_求函数极限的方法.tex) [31] (Mathematics.aux)
+) [30] (chapter3/2_求数列极限的方法.tex) [31]
+(chapter3/3_求函数极限的方法.tex) [32] (Mathematics.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `Mathematics.out' has not changed.
-(rerunfilecheck)             Checksum: 09A3C191A7B5EC410038271FF489FD11;6403.
+(rerunfilecheck)             Checksum: 4729B4B32F7CA76D4CC59CB898BE0B17;6582.
 Package logreq Info: Writing requests to 'Mathematics.run.xml'.
 \openout1 = `Mathematics.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48700 strings out of 411463
- 1008761 string characters out of 5823895
- 1972719 words of memory out of 5000000
- 68054 multiletter control sequences out of 15000+600000
+ 48715 strings out of 411463
+ 1009005 string characters out of 5823895
+ 1972907 words of memory out of 5000000
+ 68066 multiletter control sequences out of 15000+600000
  529467 words of font info for 121 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  103i,17n,136p,686b,1325s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Mathematics.pdf (34 pages).
+Output written on Mathematics.pdf (35 pages).
