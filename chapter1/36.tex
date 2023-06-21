@@ -1,0 +1,25 @@
+\section{定积分中的柯西不等式}
+
+\begin{theorem}[Cauchy-Schwarz不等式]
+	设$f(x),g(x)$在$[a,b]$可积，则有：
+	\begin{equation}
+		\left(\int_{a}^{b}f(x)g(x)\textbf{d}x\right)^2 \leq \int_{a}^{b}f^2(x)\textbf{d}x\int_{a}^{b}g^2(x)\textbf{d}x
+	\end{equation}
+	若$f$与$g$均为连续函数，则当$f$与$g$线性相关时该不等式取等.
+\end{theorem}
+
+\begin{corollary}
+	若$f(x)$在$[a,b]$上可积，则有：
+	\begin{equation}
+		\left(\int_{a}^{b}f(x)\textbf{d}x\right)^2 \leq (b-a)\int_{a}^{b}f^2(x)\textbf{d}x.
+	\end{equation}
+	当$f$为连续函数时，若$f$为常值函数则不等式取等.
+\end{corollary}
+
+\begin{corollary}
+	若$f(x)$在$[a,b]$上可积，且$f(x)\geq m>0$，则有：
+	\begin{equation}
+		\int_{a}^{b}f(x)\textbf{d}x\int_{a}^{b}\dfrac{1}{f(x)}\textbf{d}x \geq (b-a)^2.
+	\end{equation}
+	当$f$为连续函数时，若$f$为恒正常值函数则不等式取等.
+\end{corollary}
