@@ -1,0 +1,30 @@
+\section{定积分与周期函数}
+
+\begin{proposition}[Riemann-Lebesgue引理]
+	设$f(x)$在$[a,b]$上可积，$g(x)$以$T$为周期，且在$[0,T]$上可积，则有：
+	\begin{equation}
+		\displaystyle\lim_{n\to\infty}\int_{a}^{b}f(x)g(nx)\textbf{d}x = \dfrac{1}{T}\int{0}^{T}g(x)\textbf{d}x\int_{a}^{b}f(x)\textbf{d}x.
+	\end{equation}
+\end{proposition}
+
+
+
+\begin{proposition}[Riemann-Lebesgue引理]
+	设$f(x)$在任意有限区间可积，且$\int_{a}^{+\infty}f(x)\textbf{d}x$绝对收敛，$g(x)$是以$T$为周期的可积函数，则有：
+	\begin{equation}
+			\displaystyle\lim_{n\to\infty}\int_{a}^{+\infty}f(x)g(nx)\textbf{d}x = \dfrac{1}{T}\int{0}^{T}g(x)\textbf{d}x\int_{a}^{+\infty}f(x)\textbf{d}x.
+	\end{equation}
+\end{proposition}
+
+
+这个引理在三角函数中的应用是非常重要的！
+
+\begin{corollary}
+	设$f(x)$在$[a,b]$($b$可以是$+\infty$)上可积且绝对可积，则有：
+	\begin{equation}
+		\displaystyle\lim_{\lambda\to +\infty}\int_{a}^{b}f(x)\cos{\lambda x}\textbf{d}x = 0.
+	\end{equation}
+	\begin{equation}
+		\displaystyle\lim_{\lambda\to +\infty}\int_{a}^{b}f(x)\sin{\lambda x}\textbf{d}x = 0.
+	\end{equation}
+\end{corollary}
