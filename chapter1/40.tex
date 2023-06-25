@@ -1,0 +1,15 @@
+\section{两类反常积分的柯西收敛准则}
+
+\begin{theorem}[无穷积分的Cauchy收敛准则]
+	无穷积分$\int_{a}^{+\infty}f(x)\textbf{d}x$收敛的充分必要条件是：$\forall\epsilon>0$，存在$A>a$使得对$\forall u_1,u_2>A$都有：
+	\begin{equation}
+		\left|\int_{u_1}^{u_2}f(x)\textbf{d}x\right|<\epsilon.
+	\end{equation}
+\end{theorem}
+
+\begin{theorem}[瑕积分的Cauchy收敛准则]
+	瑕积分$\int_{a}^{b} f(x)\textbf{d}x$（瑕点为$a$）收敛的充分必要条件是：$\forall\epsilon>0$，存在$\delta>0$使得对$\forall u_1,u_2\in (a,a+\delta)$都有：
+	\begin{equation}
+		\left|\int_{u_1}^{u_2}f(x)\textbf{d}x\right|<\epsilon.
+	\end{equation}
+\end{theorem}

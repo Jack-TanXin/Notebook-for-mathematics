@@ -1,0 +1,75 @@
+\section{定积分的应用}
+
+\begin{proposition}[平面图形的面积]
+	由上下两条连续曲线$y=f_1(x)$和$y = f_2(x)$以及两条直线$x=a$与$x=b(a<b)$所围成的平面图形的面积为：
+	\begin{equation}
+		A = \int_{a}^{b}f_2(x)-f_1(x)\textbf{d}x.
+	\end{equation}
+\end{proposition}
+
+
+\begin{proposition}[极坐标下的面积]
+	设曲线$C$是由极坐标方程
+	\begin{equation}
+		r = r(\theta),\theta\in[\alpha,\beta]
+	\end{equation}
+	给出，其中$r(\theta)$在$[\alpha,\beta]$上连续，$\beta-\alpha\leq 2\pi$.由曲线$C$与两射线$\theta=\alpha,\theta=\beta$所围成的平面图形（也成为扇形）的面积为：
+	\begin{equation}
+		A = \dfrac{1}{2}\int_{\alpha}^{\beta}r^2(\theta)\textbf{d}\theta.
+	\end{equation}
+\end{proposition}
+
+
+\begin{proposition}[旋转体的截面积与体积]
+	设$f$是$[a,b]$上的连续函数，$\Omega$是由平面图形
+	\begin{equation}
+		0\leq |y|\leq |f(x)|,a\leq x\leq b.
+	\end{equation}
+	绕$x$轴旋转一周所得的旋转体，那么易知截面面积函数为：
+	\begin{equation}
+		A(x)=\pi f^2(x),x\in[a,b].
+	\end{equation}
+	而旋转体$\Omega$的体积公式为：
+	\begin{equation}
+		V = \pi \int_{a}^{b}f^2(x)\textbf{d}x.
+	\end{equation}
+\end{proposition}
+
+
+\begin{proposition}[弧长与曲率]
+	设曲线$C$由参数方程
+	\begin{equation}
+		\left\{
+		\begin{aligned}
+			x = x(t) \\
+			y = y(t) \\
+		\end{aligned}
+		\right
+		.
+	\end{equation}
+	给出.若曲线$C$是一条光滑曲线，则$C$是可求长的，且弧长为：
+	\begin{equation}
+		s = \int_{\alpha}^{\beta}\sqrt{(x'(t)^2)+(y'(t))^2}\textbf{d}t.
+	\end{equation}
+	曲率计算公式为：
+	\begin{equation}
+		K = \dfrac{|x'y''-x''y'|}{\left( (x')^2+(y')^2  \right)^{\frac{3}{2}}}
+	\end{equation}
+\end{proposition}
+
+
+\begin{corollary}[极坐标方程的弧长]
+	若曲线$C$是由极坐标方程
+	\begin{equation}
+		r = r(\theta),\theta\in[\alpha,\beta]
+	\end{equation}	
+	表示，则弧长公式为：
+	\begin{equation}
+		s = \int_{\alpha}^{\beta}\sqrt{r^2(\theta)+\left(r'(\theta)\right)^2}\textbf{d}\theta.
+	\end{equation}
+\end{corollary}
+
+
+
+
+
