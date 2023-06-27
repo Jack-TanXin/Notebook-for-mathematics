@@ -39,9 +39,5 @@
 \contentsline {section}{\numberline {1.38}定积分与周期函数}{29}{section.1.38}%
 \contentsline {section}{\numberline {1.39}定积分的应用}{29}{section.1.39}%
 \contentsline {section}{\numberline {1.40}两类反常积分的柯西收敛准则}{31}{section.1.40}%
-\contentsline {chapter}{\numberline {第二章}数学分析解题总结}{32}{chapter.2}%
-\contentsline {section}{\numberline {2.1}三大积分法与三类特殊体系}{33}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}三大积分法}{33}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}有理函数和可化为有理函数的不定积分}{33}{subsection.2.1.2}%
-\contentsline {section}{\numberline {2.2}求数列极限}{34}{section.2.2}%
-\contentsline {section}{\numberline {2.3}求函数极限}{35}{section.2.3}%
+\contentsline {section}{\numberline {1.41}非负函数反常积分的比较原则}{32}{section.1.41}%
+\contentsline {section}{\numberline {1.42}一般函数反常积分的敛散判别}{33}{section.1.42}%

@@ -1,0 +1,19 @@
+\section{一般函数反常积分的敛散判别}
+
+\begin{theorem}[Dirichlet判别法]
+	若$F(u) = \int_{a}^{u}f(x)\textbf{d}x$在$[a,+\infty)$上有界，$g(x)$在$[a,+\infty)$上当$x\to +\infty$时单调趋于0，则$\int_{a}^{+\infty}f(x)g(x)\textbf{d}x$收敛.
+\end{theorem}
+
+\begin{theorem}[Albel判别法]
+	若$\int_{a}^{+\infty}f(x)\textbf{d}x$收敛，$g(x)$在$[a,+\infty)$上单调有界，则$\int_{a}^{+\infty}f(x)g(x)\textbf{d}x$收敛.
+\end{theorem}
+
+上面两个定理是针对无穷反常积分的，下面是瑕积分的对应形式：
+
+\begin{theorem}[Dirichlet判别法]
+	设$a$为$f(x)$的瑕点，若$F(u) = \int_{u}^{b}f(x)\textbf{d}x$在$(a,b]$上有界，$g(x)$在$(a,b]$上单调且$\displaystyle\lim_{x\to a^+}g(x)=0$，则瑕积分$\int_{a}^{+\infty}f(x)g(x)\textbf{d}x$收敛.
+\end{theorem}
+
+\begin{theorem}[Albel判别法]
+	设$a$为$f(x)$的瑕点，若$\int_{a}^{b}f(x)\textbf{d}x$收敛，$g(x)$在$(a,b]$上单调有界，则$\int_{a}^{+\infty}f(x)g(x)\textbf{d}x$收敛.
+\end{theorem}
