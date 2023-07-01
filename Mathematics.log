@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2023.6.4)  27 JUN 2023 10:19
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2023.6.4)  1 JUL 2023 17:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2146,24 +2146,24 @@ LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
 (chapter1/30.tex) [24] (chapter1/31.tex) (chapter1/32.tex) [25]
 (chapter1/33.tex) (chapter1/34.tex) [26] (chapter1/35.tex) (chapter1/36.tex)
 [27] (chapter1/37.tex) [28] (chapter1/38.tex) (chapter1/39.tex [29]) [30]
-(chapter1/40.tex) [31] (chapter1/41.tex) [32] (chapter1/42.tex) [33]
-(Mathematics.aux)
+(chapter1/40.tex) [31] (chapter1/41.tex) [32] (chapter1/42.tex)
+(chapter1/43.tex [33]) [34] (chapter1/44.tex) (Mathematics.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `Mathematics.out' has not changed.
-(rerunfilecheck)             Checksum: CA4384D32447C5B4FD18AC9EC342BA59;6455.
+(rerunfilecheck)             Checksum: 2687B00293C41AF7642E3ECFEE17A61F;6634.
 Package logreq Info: Writing requests to 'Mathematics.run.xml'.
 \openout1 = `Mathematics.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48745 strings out of 411463
- 1009284 string characters out of 5823895
- 1972760 words of memory out of 5000000
- 68093 multiletter control sequences out of 15000+600000
+ 48765 strings out of 411463
+ 1009602 string characters out of 5823895
+ 1972950 words of memory out of 5000000
+ 68107 multiletter control sequences out of 15000+600000
  529451 words of font info for 119 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  103i,17n,136p,686b,1325s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Mathematics.pdf (36 pages).
+Output written on Mathematics.pdf (37 pages).

@@ -1,0 +1,100 @@
+\section{典型反常积分、级数敛散性}
+
+\begin{proposition}[$p$积分]
+	对于无穷积分$\int_{1}^{+\infty}\dfrac{\textbf{d}x}{x^p}$有：
+	\begin{equation}
+		\displaystyle\lim_{u \to +\infty}\int_{1}^{u}\dfrac{\textbf{d}x}{x^p} = \left\{
+		\begin{aligned}
+			\dfrac{1}{p-1} \quad p>1\\
+			+\infty \quad p\leq 1\\
+		\end{aligned}
+		\right
+		.
+	\end{equation}
+	显然其敛散性如下：
+	\begin{enumerate}
+		\item $p>1$时$\int_{1}^{+\infty}\dfrac{\textbf{d}x}{x^p}$收敛于$\dfrac{1}{p-1}$.
+		\item $p\leq 1$时$\int_{1}^{+\infty}\dfrac{\textbf{d}x}{x^p}$发散于$+\infty$.
+	\end{enumerate}
+\end{proposition}
+
+
+\begin{proposition}[$q$积分]
+	对于瑕积分$\int_{0}^{1}\dfrac{\textbf{d}x}{x^q}$有：
+	\begin{equation}
+		\int_{u}^{1}\dfrac{\textbf{d}x}{x^q} = \left\{
+		\begin{aligned}
+			\dfrac{1}{q-1}(1-u^{1-q}) \quad q\neq 1\\
+			-\ln{u} \quad q=1\\
+		\end{aligned}
+		\right
+		.
+	\end{equation}
+	显然其敛散性如下：
+	\begin{enumerate}
+		\item $0<q<1$时，$\int_{0}^{1}\dfrac{\textbf{d}x}{x^q}$收敛于$\dfrac{1}{1-q}$.
+		\item $q\geq 1$时，$\int_{0}^{1}\dfrac{\textbf{d}x}{x^q}$发散于$+\infty$.
+	\end{enumerate}
+\end{proposition}
+
+
+\begin{corollary}[$p$级数]
+	对于$p$级数$\sum \dfrac{1}{n^p}$的敛散性有：
+	\begin{enumerate}
+		\item $p>1$时$\sum \dfrac{1}{n^p}$收敛.
+		\item $p\leq 1$时$\sum \dfrac{1}{n^p}$发散.
+	\end{enumerate}
+\end{corollary}
+
+\begin{proposition}[几何级数]
+	对于$1+aq+aq^2+\dots+aq^n+\dots$的敛散性，有：
+	\begin{equation}
+		S_n = 1+aq+aq^2+\dots+aq^n = a \cdot \dfrac{1-q^n}{1-q}.
+	\end{equation}
+	故有：
+	\begin{enumerate}
+		\item $|q|<1$时$1+aq+aq^2+\dots+aq^n+\dots$收敛于$\dfrac{a}{1-q}$.
+		\item $|q|\geq 1$时$1+aq+aq^2+\dots+aq^n+\dots$发散.
+	\end{enumerate}
+\end{proposition}
+
+
+\begin{proposition}[典型级数]
+	\begin{enumerate}
+		\item 调和级数$1+\dfrac{1}{2}+\dfrac{1}{3}+\dots+\dfrac{1}{n}+\dots$是发散的.
+		\item 级数$\sum\dfrac{1}{n^2}$是收敛的.
+	\end{enumerate}
+\end{proposition}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
