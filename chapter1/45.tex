@@ -1,0 +1,11 @@
+\section{黎曼积分与无穷积分的区别}
+
+\begin{proposition}
+	\begin{enumerate}
+		\item 	如果函数$f(x)$在闭区间$[a,b]$上黎曼可积，那么$|f(x)|$在区间$[a,b]$上也黎曼可积，反之不成立.
+		\item 	如果函数$|f(x)|$在无穷区间$[a,+\infty)$上可积，即$\int_{a}^{+infty}|f(x)|\textbf{d}x$收敛，那么$\int_{a}^{+infty}f(x)\textbf{d}x$收敛，反之不成立.
+	\end{enumerate}
+
+\end{proposition}
+
+值得注意的是，对于黎曼积分，函数是否可积取决于间断点的数量是否有限（勒贝格定理）与是否有界，正因如此，求绝对值后间断点数量不会变化，故结论1成立；而对于无穷积分，是否收敛取决于无穷远处的函数是否无穷小，故由$|\int_{A'}^{A''}f(x)\textbf{d}x|\leq \int_{A'}^{A''}|f(x)|\textbf{d}x<\epsilon$可知$\int_{a}^{+\infty}f(x)\textbf{d}x$收敛.

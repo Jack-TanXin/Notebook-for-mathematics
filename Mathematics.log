@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2023.6.4)  1 JUL 2023 17:34
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2023.6.4)  8 JUL 2023 14:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2147,23 +2147,37 @@ LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
 (chapter1/33.tex) (chapter1/34.tex) [26] (chapter1/35.tex) (chapter1/36.tex)
 [27] (chapter1/37.tex) [28] (chapter1/38.tex) (chapter1/39.tex [29]) [30]
 (chapter1/40.tex) [31] (chapter1/41.tex) [32] (chapter1/42.tex)
-(chapter1/43.tex [33]) [34] (chapter1/44.tex) (Mathematics.aux)
+(chapter1/43.tex [33]) [34] (chapter1/44.tex) [35] (chapter1/45.tex
+Underfull \hbox (badness 1092) in paragraph at lines 6--7
+[]\TU/KaiTi(0)/m/n/12 如 果 函 数 $\LMS/ntxsy/m/n/12 j\OML/ntxmi/m/it/12 f\LMS/ntxs
+y/m/n/12 ¹\OML/ntxmi/m/it/12 x\LMS/ntxsy/m/n/12 ºj$ \TU/KaiTi(0)/m/n/12 在 无 穷 区
+ 间 $\LMS/ntxsy/m/n/12 »\OML/ntxmi/m/it/12 a; \LMS/ntxsy/m/n/12 Ï1º$ \TU/KaiTi(0
+)/m/n/12 上 可 积，|  即 $[][] \LMS/ntxsy/m/n/12 j\OML/ntxmi/m/it/12 f\LMS/ntxsy/m/n
+/12 ¹\OML/ntxmi/m/it/12 x\LMS/ntxsy/m/n/12 ºj[]\OML/ntxmi/m/it/12 x$ \TU/KaiTi(
+0)/m/n/12 收 敛，|  那 么
+ []
+
+) [36]
+Chapter 2.
+(chapter3/1_不随数域变化而变.tex) [37
+
+] (Mathematics.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `Mathematics.out' has not changed.
-(rerunfilecheck)             Checksum: 2687B00293C41AF7642E3ECFEE17A61F;6634.
+(rerunfilecheck)             Checksum: 907DE9A364656EECD0EA63B54D0EAAF8;7288.
 Package logreq Info: Writing requests to 'Mathematics.run.xml'.
 \openout1 = `Mathematics.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48765 strings out of 411463
- 1009602 string characters out of 5823895
- 1972950 words of memory out of 5000000
- 68107 multiletter control sequences out of 15000+600000
+ 48811 strings out of 411463
+ 1011430 string characters out of 5823895
+ 1973660 words of memory out of 5000000
+ 68146 multiletter control sequences out of 15000+600000
  529451 words of font info for 119 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  103i,17n,136p,686b,1325s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Mathematics.pdf (37 pages).
+Output written on Mathematics.pdf (40 pages).
