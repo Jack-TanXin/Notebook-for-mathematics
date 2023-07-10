@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2023.6.4)  8 JUL 2023 14:54
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2023.6.4)  10 JUL 2023 20:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2157,27 +2157,23 @@ y/m/n/12 ¹\OML/ntxmi/m/it/12 x\LMS/ntxsy/m/n/12 ºj$ \TU/KaiTi(0)/m/n/12 在 �
 0)/m/n/12 收 敛，|  那 么
  []
 
-) [36]
-Chapter 2.
-(chapter3/1_不随数域变化而变.tex) [37
-
-] (Mathematics.aux)
+) (chapter2/1_证明级数发散性.tex) [36] (Mathematics.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `Mathematics.out' has not changed.
-(rerunfilecheck)             Checksum: 907DE9A364656EECD0EA63B54D0EAAF8;7288.
+(rerunfilecheck)             Checksum: 6A435047F5917948FE22A888FB340471;7139.
 Package logreq Info: Writing requests to 'Mathematics.run.xml'.
 \openout1 = `Mathematics.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48811 strings out of 411463
- 1011430 string characters out of 5823895
- 1973660 words of memory out of 5000000
- 68146 multiletter control sequences out of 15000+600000
+ 48814 strings out of 411463
+ 1011482 string characters out of 5823895
+ 1973488 words of memory out of 5000000
+ 68149 multiletter control sequences out of 15000+600000
  529451 words of font info for 119 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  103i,17n,136p,686b,1325s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Mathematics.pdf (40 pages).
+Output written on Mathematics.pdf (39 pages).
